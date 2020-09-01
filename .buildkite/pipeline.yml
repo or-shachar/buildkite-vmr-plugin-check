@@ -1,6 +1,7 @@
 steps:
   - label: ":hammer: Generate VMR"
     command: |
+      apt update && apt install python python3 g++ -y
       python --version
       python3 --version
       echo "================="
