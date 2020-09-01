@@ -1,0 +1,17 @@
+steps:
+  - label: ":hammer: Generate VMR"
+    command: |
+      echo "================="
+      echo "tools/2nd_party_resolved_dependencies_current_branch.bzl"
+      echo "================="
+      cat tools/2nd_party_resolved_dependencies_current_branch.bzl
+      echo ""
+      echo "================="
+      echo "tools/external_repos.bzl"
+      echo "================="
+      cat tools/external_repos.bzl
+    agents:
+    - "bazel=true"
+    env:
+      VMR_bazel_tooling: "bazel-tooling/115ce4b2ec4110bbaa9a43ec1b054af750488711"
+      VMR_wix_platform_wix_framework: "wix-platform/wix-framework/225ce4b2ec4110bbaa9a43ec1b054af750488722"
