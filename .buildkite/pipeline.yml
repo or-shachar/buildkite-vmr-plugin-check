@@ -19,4 +19,4 @@ steps:
       VMR_bazel_tooling: "bazel-tooling/115ce4b2ec4110bbaa9a43ec1b054af750488711"
       VMR_wix_platform_wix_framework: "wix-platform/wix-framework/225ce4b2ec4110bbaa9a43ec1b054af750488722"
     plugins:
-      - ssh://git@github.com/wix-playground/wix-vmr-buildkite-plugin.git#0134ff1ba859fa025e3b90a859d31fb2c5084eb4: ~
+      - ssh://git@github.com/wix-playground/wix-vmr-buildkite-plugin.git#bf23669: ~
